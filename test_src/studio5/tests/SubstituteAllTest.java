@@ -17,7 +17,7 @@ public class SubstituteAllTest {
 	public void test1Round() {
 		String source = "r is a r is a r is a r.";
 
-		String actual = Methods.substituteAll(source, 'r', "rose");
+		String actual = Methods.substituteAll(source, "r", "rose");
 		assertEquals("rose is a rose is a rose is a rose.", actual);
 	}
 
